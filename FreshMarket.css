@@ -1,0 +1,285 @@
+
+body{
+    background-color: #FBF9F1;
+  
+}
+
+.navbar{
+    display: inline-block;
+    width: 100%;
+    display: inline;
+    padding-left: 10px;
+    background-color: #FBF9F1;
+    
+}
+
+.first-element .navbar-brand{
+    text-shadow: rgb(236, 236, 230) 2px 0 0 ;
+    color: #2A6049;
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+    
+}
+
+.second-element{
+display: inline;
+float: right;
+font-weight: 300;
+padding-right: 80px;
+}
+
+.navbar-item a{
+    
+    color: #2A6049;
+}
+
+.navbar-item{
+
+    color: #2A6049;
+    list-style-type: none;
+}
+
+.logo2{
+    font-size: 20px;
+    
+}
+
+.nav-link .logo3{
+    font-size: 50px;
+    padding-left: 22px;
+
+}
+
+.nav-item-3 .nav-link-3{
+    padding: 0;
+}
+
+.nav-item-3{
+    margin-bottom: 20px;
+}
+
+
+
+
+.script-photo{
+    
+    width: 100%;
+    background-color: #FBF9F1;
+}
+
+
+.title-div .title-img1{
+    color: #2A6049;
+    font-size: 54px;
+    height: 22px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: rgb(236, 236, 230) 2spx 0 0 ;
+}
+
+
+.title-div .title-img2{
+    color: #2A6049;
+    text-shadow: rgb(236, 236, 230) 1px 0 0 ;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top:40px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.title-div .title-img-2-1{
+    color: #105235;
+    text-shadow: rgb(236, 236, 230) 2px 0 0 ;
+    font-size: 54px;
+    height: 22px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+
+.title-div .title-img-2-2{
+    text-shadow: rgb(236, 236, 230) 2px 0 0 ;
+    color: #105235;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top:40px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.title-div{
+   position: absolute;
+   padding-top: 20%;
+   padding-left: 10%;
+}
+
+
+
+
+.con2{
+    margin-top: 150px;
+    opacity: 0.8;
+    
+}
+
+.button-slider{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2A6049;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-slider:hover{
+    background-color: #2A6049;
+    color: #FBF9F1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.my-input2::-webkit-outer-spin-button,
+.my-input2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.my-input2{
+
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    background-color: #387058;
+}
+
+.carousel-control-next  .div-icon-2 {
+    width: 50px;
+    height: 50px;
+   background-color: #2A6049;
+   opacity: 0.5;
+}
+
+.carousel-control-prev .div-icon-1 {
+    width: 50px;
+    height: 50px;
+   background-color: #2A6049;
+   opacity: 0.5;
+}
+
+
+
+
+
+
+
+.my-button {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid white;
+    background: white;
+    color: #000;
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.my-button:hover {
+    background-color: white;
+    color: #000;
+    box-shadow: 0 0 5px  white,
+                0 0 20px rgb(255 255 0 / 0.8),
+                0 0 35px rgb(255 255 0 / 0.7),
+                0 0 50px rgb(255 255 0 / 0.6);
+    border-color: #fff;
+}
+
+
+
+.loading{
+    background-image: url("https://loading.io/spinners/progress/index.progress-bar-preloader.svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -40px -134px;
+    outline: none;
+    border: 1px;
+    padding: 4px 8px 4px 8px;
+    
+}
+
+
+
+
+.my-chat {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid white;
+    background: white;
+    color: #000;
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.my-chat:hover {
+    background-color: white;
+    color: #000;
+    box-shadow: 0 0 5px  white,
+                0 0 20px rgb(150 150 150 / 0.8),
+                0 0 35px rgb(180 180 180 / 0.7),
+                0 0 50px rgb(180 180 180 / 0.6);
+    border-color: #fff;
+}
+
+
+.chat-icon:hover{
+    
+        
+        color: #000;
+        box-shadow: 0 0 5px  white,
+                    0 0 20px rgb(150 150 150 / 0.8),
+                    0 0 35px rgb(180 180 180 / 0.7),
+                    0 0 50px rgb(180 180 180 / 0.6);
+        border-color: #fff;
+    
+}
+
+
+.chat-close:hover{
+    
+        
+    color: #000;
+    box-shadow: 0 0 5px  white,
+                0 0 20px rgb(150 150 150 / 0.8),
+                0 0 35px rgb(180 180 180 / 0.7),
+                0 0 50px rgb(180 180 180 / 0.6);
+    border-color: #fff;
+
+}
+
+input {outline:none;}
+
+/* ============================================= */
+
+
+
+
+
+
+
+
