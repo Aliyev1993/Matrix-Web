@@ -192,15 +192,13 @@ $('.products-digit').click(function () {
 
     })
 
-    $('.card-product-list').show(700);
-    $('.card-product-list').animate({
-
-    })
+    $('.card-product-list').slideDown(700);
+    
 });
 
 $('.product-close').click(function () {
 
-    $('.card-product-list').hide(700);
+    $('.card-product-list').slideUp(700);
 
 
 
@@ -220,14 +218,11 @@ $('.product-close').click(function () {
 
 
 
-$('.plus-icon').click(function () {
-    $('.list-collection').show(700);
-    $('.plus-icon').hide(700);
-    $('.minus-icon').show(700);
-});
 
-$('.minus-icon').click(function () {
-    $('.list-collection').hide(700);
-    $('.minus-icon').hide(700);
-    $('.plus-icon').show(700);
-});
+
+
+
+// ---------------------------------------------------------------
+
+
+

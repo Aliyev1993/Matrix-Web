@@ -293,3 +293,45 @@ input {outline:none;}
 
 
 
+input[type=range] {-webkit-appearance: none; margin: 5.8px 0; background-color: transparent !important;}
+
+input[type=range]:focus {outline: none;}
+
+input[type=range]::-webkit-slider-runnable-track {cursor: pointer; box-shadow: 2.4px 2.4px 6.2px rgba(194, 194, 196, 0.72), 0px 0px 2.4px rgba(227, 227, 230, 0.72); background: #b9b9b9; border-radius: 21.6px; border: 1px solid #b9b9b9;}
+
+input[type=range]::-webkit-slider-thumb {box-shadow: 2.4px 2.4px 9.5px rgba(4, 16, 14, 0.78), 0px 0px 2.4px rgba(9, 36, 32, 0.78); border: 1.8px solid #105235; border-radius: 28px; background: black; cursor: pointer; -webkit-appearance: none; margin-top: -7.8px;}
+
+input[type=range]:focus::-webkit-slider-runnable-track {background: #b9b9b9;}
+
+input[type=range]::-moz-range-track {width: 100%; cursor: pointer; box-shadow: 2.4px 2.4px 6.2px rgba(212, 212, 214, 0.72), 0px 0px 2.4px rgba(243, 243, 243, 0.72); background: #b9b9b9; border-radius: 21.6px; border: 1px solid #b9b9b9;}
+
+input[type=range]::-moz-range-thumb {box-shadow: 2.4px 2.4px 9.5px rgba(4, 16, 14, 0.78), 0px 0px 2.4px rgba(9, 36, 32, 0.78); border: 1.8px solid #105235; border-radius: 28px; background: #000; cursor: pointer;}
+
+input[type=range]::-ms-track {width: 100%; cursor: pointer; background: transparent; border-color: transparent; color: transparent;}
+
+input[type=range]::-ms-fill-lower {background: #b9b9b9; border: 1px solid #b9b9b9; border-radius: 43.2px; box-shadow: 2.4px 2.4px 6.2px rgba(239, 239, 241, 0.72), 0px 0px 2.4px rgba(237, 237, 240, 0.72);}
+
+input[type=range]::-ms-fill-upper {background: #b9b9b9; border: 1px solid #b9b9b9; border-radius: 43.2px; box-shadow: 2.4px 2.4px 6.2px rgba(236, 236, 238, 0.72), 0px 0px 2.4px rgba(239, 239, 240, 0.72);}
+
+input[type=range]::-ms-thumb {box-shadow: 2.4px 2.4px 9.5px rgba(4, 16, 14, 0.78), 0px 0px 2.4px rgba(9, 36, 32, 0.78); border: 1.8px solid #105235; border-radius: 28px; background: black; cursor: pointer;}
+
+input[type=range]:focus::-ms-fill-lower {background:#b9b9b9;}
+
+input[type=range]:focus::-ms-fill-upper {background: #b9b9b9;}
+
+/* Track */
+input[type=range]::-webkit-slider-runnable-track {height: 6.4px;}
+input[type=range]::-moz-range-track {height: 6.4px;}
+input[type=range]::-ms-track {height: 6.4px;}
+
+/* Thumb */
+input[type=range]::-webkit-slider-thumb {height: 20px; width: 8px;}
+input[type=range]::-moz-range-thumb {height: 20px; width: 8px;}
+input[type=range]::-ms-thumb {height: 20px; width: 8px;}
+
+
+
+
+    
+
+  
