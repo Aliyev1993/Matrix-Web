@@ -100,3 +100,18 @@ $('.minus-icon-price').click(function () {
 
 
 
+// -----------------------------------------------------------------
+
+$( ".log-in-link" ).click(function(){
+    $(".log-in").show();
+    $(".allSite").hide();
+    $(".chat-logo").hide();
+})
+
+
+
+$( ".close-log" ).click(function(){
+    $(".log-in").hide();
+    $(".allSite").show();
+    $(".chat-logo").show();
+})
