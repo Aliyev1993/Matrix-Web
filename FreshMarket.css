@@ -20,6 +20,24 @@ body{
     
 }
 
+.log-1{
+    width:40px;
+     padding-bottom: 5px;
+      border-radius: 5px 5px 5px 5px;
+}
+
+
+.fresh{
+
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    font-weight: 500;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+   
+}
+
 .first-element .navbar-brand{
     text-shadow: rgb(236, 236, 230) 2px 0 0 ;
     color: #2A6049;
@@ -28,6 +46,21 @@ body{
     padding-left: 50px;
     
 }
+
+
+.box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    background: white;
+  }
+
+
 
 .second-element{
 display: inline;
@@ -46,6 +79,44 @@ padding-right: 80px;
     color: #2A6049;
     list-style-type: none;
 }
+
+
+.checkout{
+
+    display: inline-block;
+     border: none; 
+     width: 100%;
+      background-color: #2c6d51;
+}
+
+.checkout:hover{
+    background-color: #398866;
+    
+}
+
+
+
+
+
+
+.products-digit{
+    position: relative;
+     text-align: center; 
+     color: #FBF9F1; 
+     font-size: 12px;
+      border-radius: 80%;
+        width: 25px;
+         height: 30px;
+         background-color: #2A6049;
+          border: none;  
+          margin-left: 25px;
+           margin-top: 13px; 
+}
+
+
+
+
+
 
 .logo2{
     font-size: 20px;
