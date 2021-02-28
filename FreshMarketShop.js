@@ -103,6 +103,7 @@ $('.minus-icon-price').click(function () {
 // -----------------------------------------------------------------
 
 $( ".log-in-link" ).click(function(){
+    
     $(".log-in").show();
     $(".allSite").hide();
     $(".chat-logo").hide();
@@ -111,7 +112,48 @@ $( ".log-in-link" ).click(function(){
 
 
 $( ".close-log" ).click(function(){
-    $(".log-in").hide();
-    $(".allSite").show();
-    $(".chat-logo").show();
+    
+    $(".log-in").hide(1000);
+    $(".allSite").show(0);
+    $(".chat-logo").show(0);
 })
+
+
+
+// -------------------------------------------------------------------------------------------------
+
+
+
+
+
+$(document).ready(function() {
+    $('.input-contact').click(function() {
+        e.preventDefault();
+      if ($(this).val().length==0) {
+          $(this).css(
+              {
+                  "border":"2px solid red"
+              }
+          );
+      } 
+    });
+  });
+
+
+
+
+
+
+  
+$(document).ready(function() {
+    $('.input-contact').keyup(function() {
+       
+          $(this).css(
+                  {
+                      "border":"2px solid #105235"
+                  }
+          )
+        }
+        );
+        });
+    
