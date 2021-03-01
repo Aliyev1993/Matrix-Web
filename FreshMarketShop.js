@@ -128,7 +128,6 @@ $( ".close-log" ).click(function(){
 
 $(document).ready(function() {
     $('.input-contact').click(function() {
-        e.preventDefault();
       if ($(this).val().length==0) {
           $(this).css(
               {
