@@ -100,6 +100,20 @@ $('.minus-icon-price').click(function () {
 
 
 
+$('.plus-icon-ship').click(function () {
+    $('.range-ship').slideDown(700);
+    $('.plus-icon-ship').hide(700);
+    $('.minus-icon-ship').show(700);
+});
+
+$('.minus-icon-ship').click(function () {
+    $('.range-ship').slideUp(700);
+    $('.minus-icon-ship').hide(700);
+    $('.plus-icon-ship').show(700);
+});
+
+
+
 // -----------------------------------------------------------------
 
 $( ".log-in-link" ).click(function(){
