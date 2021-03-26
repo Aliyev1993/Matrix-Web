@@ -6,6 +6,7 @@ body{
 }
 
 
+
 *{
     outline: none;
     
@@ -208,6 +209,8 @@ input::-webkit-inner-spin-button {
     height: 30px;
     background-color: #387058;
 }
+
+
 
 .carousel-control-next  .div-icon-2 {
     width: 50px;
@@ -445,4 +448,8 @@ input[type=range]::-ms-thumb {height: 20px; width: 8px;}
 
 .button-facebook:hover{
     background-color:#3c6eda ;
+    
 }
+
+
+
