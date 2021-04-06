@@ -22,9 +22,9 @@
     <div class="allSite" >
 
 
-
-        <nav class=" navbar navbar-default  fixed-top">
-            <div class="container navbar navbar-expand-sm mt-3 fixed" style="display: inline;">
+<div class="container">
+        <nav class="container navbar navbar-default  fixed-top">
+            <div class="container  navbar-expand-sm mt-3 fixed navbar-fresh">
                 <div class="first-element">
                     <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/FreshMarket.html" class="navbar-brand">
                         <img class="log-1" src="gallery/kar.png" alt="" >
@@ -36,56 +36,58 @@
 
                 <div class="second-element" >
                     <ul class="navbar-nav ml-auto" >
-                        <li class="navbar-item">
+                        <li class="navbar-item  item-nav-words">
                             <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/FreshMarket.html" class="nav-link">Home</a>
                         </li>
 
-                        <li class="navbar-item">
+                        <li class="navbar-item item-nav-words">
                             <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/FreshMarketShop-1.html" class="nav-link">Shop</a>
                         </li>
 
-                        <li class="navbar-item">
+                        <li class="navbar-item item-nav-words">
                             <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/About.html" class="nav-link">About</a>
                         </li>
 
-                        <li class="navbar-item">
+                        <li class="navbar-item item-nav-words">
                             <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/Contact.html" class="nav-link">Contact</a>
                         </li>
 
 
-                        <li class="navbar-item">
+                        <li class="navbar-item item-nav-words">
                             <a href="#" class="nav-link">
                                 <i class="logo2 fas fa-user-circle"></i>
                             </a>
 
                         </li>
 
-                        <li class="navbar-item ">
+                        <li class="navbar-item item-nav-words">
 
                             <a  href="#" class="nav-link log-in-link ">Log in</a>
                         </li>
                        
-
+                          <li>
+                         <div class="shop-packet">
+                          <a href="##" class="nav-link"  >
+            <i class="fab fa-shopify logo3">
+            </i>
+            <p class="products-digit">0</p>
+        </a>
+    </div>
+</li>
 
                     </ul>
                    
                 </div>
-                <div class="shop-packet" style="float: left;">
-                    <a href="##" class="nav-link" style="color: #2A6049;" >
-                        <i class="fab fa-shopify logo3" style="position: absolute;">
-                        </i>
-                        <p class="products-digit"  >0</p>
-                    </a>
-                </div>
+               
             </div>
            
         </nav>
 
-
+    
 
       <!-- ------------------------------------------------------------------------------------------------- -->
 
-        <div class="container ">
+        <div >
 
         <div id="carouselExampleCaptions" class="carousel slide container " data-bs-ride="carousel">
             <div class="carousel-indicators ">
@@ -140,15 +142,16 @@
 
         </div>
 
+    </div>
+
         <!-- ----------------------------------------------------------------------------------------- -->
 
         <div id="slide-div" class="containter">
             <div id="carouselFade" class="carousel slide carousel-fade2" data-bs-ride="carousel">
 
-                <div class="card-body "
-                    style="color:#2A6049;  text-align: center; margin-top: 150px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-                    <h5 class="card-title" style="font-size:xx-large;">Weekly Deals</h5>
-                    <p class="card-text" style="font-size:medium; margin-top: 20px; margin-bottom: 50px;">Shop low
+                <div class="card-body weekly-card ">
+                    <h5 class="card-title weekly-title">Weekly Deals</h5>
+                    <p class="card-text weekly-text">Shop low
                         prices on award-winning products at Fresh Market. View our weekly specials, find recipes, and
                         shop quality brands in store or online.</p>
                 </div>
@@ -156,112 +159,96 @@
 
 
 
-                <div class="container  " style="display: flex;  justify-content: center;">
-                    <div class="card box" style="width: 20%; float:left; margin-left:20px;">
-                        <img class="card-img-top img-z-1" src="gallery/z-1.jpg" alt="" style="position:relative;">
-                        <button class="btn card-text"
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                <div class="container products-slider ">
+                    <div class="card box products-box">
+                        <img class="card-img-top img-z-1" src="gallery/z-1.jpg" alt="" >
+                        <button class="btn card-special-price">Special Price</button>
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title title-z-1" style="font-size: small; margin-top:0px">Poland Spring No
+                            <h5 class="card-title title-z-1 products-name">Poland Spring No
                                 Flavor 100% Natural Spring Water</h5>
-                            <p class="card-text text-z-1" style="font-weight: 700;">$5.29 / ea ($0.22/ea)
+                            <p class="card-text text-z-1 products-price">$5.29
                             </p>
 
-                            <div style="display: flex; justify-content: center; ">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
 
-                            <button class="btn light add-to-card"
-                                style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card">Add to Cart</button>
                         </div>
                     </div>
 
 
-                    <div class="card box" style="width: 20%; float:left; margin-left: 20px;">
+                    <div class="card box products-box">
                         <img class="card-img-top img-z-2" src="gallery/z-2.jpg" alt="">
-                        <button class="btn card-text"
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                        <button class="btn card-special-price">Special Price</button>
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title title-z-2" style="font-size: small; margin-top:0px">Dial Antibacterial
+                            <h5 class="card-title title-z-2  products-name" >Dial Antibacterial
                                 Liquid Hand Soap, Spring Water</h5>
-                            <p class="card-text text-z-2" style="font-weight: 700;">$1.59 / ea ($0.21/fl oz)
+                            <p class="card-text text-z-2 products-price">$1.59
 
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light  add-to-card"
-                                style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card">Add to Cart</button>
                         </div>
                     </div>
 
 
-                    <div class="card box" style="width: 20%; float:left; margin-left: 20px;">
+                    <div class="card box products-box">
                         <img class="card-img-top img-z-3" src="gallery/z-3.jpg" alt="">
-                        <button class="btn card-text"
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                        <button class="btn card-special-price">Special Price</button>
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title title-z-3" style="font-size: small; margin-top:0px">Hellmann's Real
+                            <h5 class="card-title title-z-3  products-name" >Hellmann's Real
                                 Mayonnaise Real Mayo</h5>
-                            <p class="card-text text-z-3" style="font-weight: 700;">$10.49 / ea ($0.87/ct)
+                            <p class="card-text text-z-3 products-price">$10.49
 
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                                style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card">Add to Cart</button>
                         </div>
                     </div>
 
 
 
-                    <div class="card box" style="width: 20%; float:left; margin-left: 20px;">
-                        <button class="btn card-text"
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                    <div class="card box products-box">
+                        <button class="btn card-special-price">Special Price</button>
                         <img class="card-img-top img-z-4" src="gallery/z-4.jpg" alt="">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title title-z-4" style="font-size: small; margin-top:0px">Heinz Tomato
+                            <h5 class="card-title title-z-4  products-name" >Heinz Tomato
                                 Ketchup brand of ketchup produced</h5>
-                            <p class="card-text text-z-4" style="font-weight: 700;">$2.99 / ea ($0.15/oz)
+                            <p class="card-text text-z-4 products-price">$2.99
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                                style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card">Add to Cart</button>
                         </div>
                     </div>
 
@@ -283,120 +270,112 @@
             </div>
         </div>
         <div class="container">
-            <hr class="light" style="margin-bottom: 100px; margin-top: 100px;">
+            <hr class="light hr-products-slider">
         </div>
 
         <!-- ------------------------------------------------------------------------------------------------------------ -->
 
         <div class="containter">
 
-            <div style="background-color: white;">
-                <div class="card-body "
-                    style="color:#2A6049;  text-align: center; padding-top: 150px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-                    <h5 class="card-title" style="font-size:xx-large;">Grab 'N Go</h5>
-                    <p class="card-text" style="font-size:medium; margin-top: 20px; margin-bottom: 50px;">We are always
+            <div class="card-Grab container">
+                <div class="card-body card-body-Grab ">
+                    <h5 class="card-title">Grab 'N Go</h5>
+                    <p class="card-text-Grab">We are always
                         looking for new vendors to supply us with specialty and local products that delight our guests.
                         Submit your products through RangeMe today!</p>
                 </div>
 
 
-                <div class="container" style="display: flex;  justify-content: center;">
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
-                        <img class="card-img-top" src="gallery/p-9.jpg" alt="" style="position:relative;">
-                        <button class="btn card-text add-to-card"
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                <div class="container Grab-first-line">
+                    <div class="card Grab-cards">
+                        <img class="card-img-top" src="gallery/p-9.jpg" alt="" >
+                        <button class="btn card-text card-special-price">Special Price</button>
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Head & Shoulders Head and
+                            <h5 class="card-title  products-name" >Head & Shoulders Head and
                                 Shoulders Classic Clean </h5>
-                            <p class="card-text" style="font-weight: 700;">$5.99 / ea ($0.44/fl oz)
+                            <p class="card-text products-price"" >$5.99
                             </p>
-                            <div style="display: flex; justify-content: center;">
+                            <div  class="summ-product-btn">
                                 <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
+                                    
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <div class="Grab-add-to-Cart" style="width: 100%;">
+                            <button class="btn light add-to-card">Add to Cart</button>
+                        </div>
                         </div>
                     </div>
 
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-10.jpg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Tide Ultra Oxi Liquid
+                            <h5 class="card-title  products-name" >Tide Ultra Oxi Liquid
                                 Detergent laundry detergent</h5>
-                            <p class="card-text" style="font-weight: 700;">$9.99 / ea ($0.14/oz)
+                            <p class="card-text products-price">$9.99
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div  class="summ-product-btn">
+                                <div class="counter" >
+                                    <button class="minus  btn light" >-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                            type="submit"  style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card" type="submit" >Add to Cart</button>
                         </div>
                     </div>
 
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-11.jpg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Stella Artois Lager Beer
+                            <h5 class="card-title  products-name" ">Stella Artois Lager Beer
                                 Bottles wonderful floral aroma</h5>
-                            <p class="card-text" style="font-weight: 700;">$14.99 / ea ($1.25/ea)
+                            <p class="card-text products-price">$14.99
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div  class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card" type="submit">Add to Cart</button>
                         </div>
                     </div>
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-12.jpg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">PICS Mushroom, Stems &
+                            <h5 class="card-title  products-name" >PICS Mushroom, Stems &
                                 Pieces 30 calories per 1/2 cup serving</h5>
-                            <p class="card-text" style="font-weight: 700;">$1.09 / ea ($0.27/oz)
+                            <p class="card-text products-price" >$1.09
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
+                            <div  class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card" type="submit">Add to Cart</button>
                         </div>
                     </div>
 
@@ -411,102 +390,92 @@
 
 
                 <div class="container" style="display: flex;  justify-content: center; margin-top: 75px;">
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-13.jpg" alt="" style="position:relative;">
-                        <button class="btn card-text "
-                            style="position: absolute; background-color:#2A6049;color: white; opacity: 0.9;">Special
-                            Price</button>
+                        <button class="btn card-text card-special-price ">Special Price</button>
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Athenos Traditional Crumbled
+                            <h5 class="card-title  products-name">Athenos Traditional Crumbled
                                 Feta Cheese Feta Cheese</h5>
-                            <p class="card-text" style="font-weight: 700;">$8.39 / ea ($0.70/oz)
+                            <p class="card-text products-price" >$8.39
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="1" max="1000000" step="1"
+                            <div  class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="1" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card "
-                            type="submit"  style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card " type="submit" >Add to Cart</button>
                         </div>
                     </div>
 
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-14.jpg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Dole Mandarin Oranges, in
+                            <h5 class="card-title  products-name">Dole Mandarin Oranges, in
                                 100% Fruit Juice Sharing </h5>
-                            <p class="card-text" style="font-weight: 700;">$2.99 / ea ($0.67/ea)
+                            <p class="card-text products-price">$2.99
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="1" max="1000000" step="1"
+                            <div  class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="1" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card"
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card" type="submit" >Add to Cart</button>
                         </div>
                     </div>
 
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards">
                         <img class="card-img-top" src="gallery/p-15.jpg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">PICS Potato Chips, Rippled,
+                            <h5 class="card-title  products-name">PICS Potato Chips, Rippled,
                                 Sour Cream & Onion</h5>
-                            <p class="card-text" style="font-weight: 700;">$1.99 / ea ($0.20/oz)
+                            <p class="card-text products-price">$1.99
                             </p>
-                            <div  style="display: flex; justify-content: center; ">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="1" max="1000000" step="1"
+                            <div   class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="1" max="1000000" step="1"
                                         value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card "
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card " type="submit">Add to Cart</button>
                         </div>
                     </div>
 
 
 
-                    <div class="card" style="width: 20%; float:left; margin-left:35px; border: none;">
+                    <div class="card Grab-cards" >
                         <img class="card-img-top" src="gallery/p-16.jpeg" alt="" style="position:relative;">
                         <hr>
                         <div class="card-body">
-                            <h5 class="card-title" style="font-size: small; margin-top:0px">Marie Callender's Chicken
+                            <h5 class="card-title  products-name">Marie Callender's Chicken
                                 Pot Pie delectable meals are quick</h5>
-                            <p class="card-text" style="font-weight: 700;">$2.19 / ea ($0.22/oz)
+                            <p class="card-text products-price" >$2.19
                             </p>
-                            <div style="display: flex; justify-content: center;">
-                                <div class="counter" style="width: 100%; ">
-                                    <button class="minus  btn light" style="margin-left: 20px;">-</button>
-                                    <input class="my-input2 btn light" type="number" min="1" max="1000000" step="1"
-                                        value="1" class="num">
+                            <div  class="summ-product-btn">
+                                <div class="counter">
+                                    <button class="minus  btn light">-</button>
+                                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
+                                        value="0" class="num">
                                     <button class="plus  btn light">+</button>
                                 </div>
                             </div>
-                            <button class="btn light add-to-card "
-                            type="submit" style="background-color:#387058;color: white; margin-top: 5px; width: 100%;">Add to
-                                Cart</button>
+                            <button class="btn light add-to-card " type="submit">Add to Cart</button>
                         </div>
                     </div>
 
@@ -532,28 +501,25 @@
 
 
 
-            <div style=" margin-top: 220px; display: flex; justify-content: center;">
-                <div
-                    style="width: 30%; text-align: center;  font-family: sans-serif; color: #2A6049; float: left;   border-right: 0.5px solid #2A6049; padding-right: 50px;">
-                    <img src="gallery/online-shopping.svg" alt="" style=" width: 30%; height: 30%; margin-bottom: 15px;">
-                    <h5 style="font-weight: 800; margin-bottom: 15px;">Pick Up Options</h5>
+            <div class="container first-footer">
+                <div class="first-footer-card">
+                    <img class="first-footer-img" src="gallery/online-shopping.svg" alt="">
+                    <h5 class="first-footer-title">Pick Up Options</h5>
                     <p>At checkout, choose from available days and times and which location works best for you to pick
                         up your order. You can also download the Fresh App right to your phone!</p>
                 </div>
 
-                <div
-                    style="width: 30%; text-align: center; font-family: sans-serif; color: #2A6049; float: left;  border-right: 0.5px solid #2A6049; padding-left: 25px; padding-right: 25px;">
-                    <img src="gallery/delivery-truck.svg" alt="" style=" width: 30%; height: 30%; margin-bottom: 15px;">
-                    <h5 style="font-weight: 800; margin-bottom: 15px;">Same Day Delivery</h5>
+                <div class=" first-footer-card">
+                    <img  class="first-footer-img" src="gallery/delivery-truck.svg" alt="">
+                    <h5 class="first-footer-title">Same Day Delivery</h5>
                     <p> Same Day Delivery fresh market
                         The Greensboro, N.C.-based specialty supermarket chain said Thursday that same-day delivery
                         service is now available at all 161 of its stores in 22 states.</p>
                 </div>
 
-                <div
-                    style="width: 30%; text-align: center;  font-family: sans-serif; color: #2A6049; float: left;  padding-left: 50px;">
-                    <img src="gallery/caduceus-symbol.svg" alt="" style=" width: 30%; height: 30%; margin-bottom: 15px;">
-                    <h5 style="font-weight: 800; margin-bottom: 15px;">Health & Safety Rules</h5>
+                <div class=" first-footer-card-last">
+                    <img class="first-footer-img"src="gallery/caduceus-symbol.svg" alt=""">
+                    <h5 class="first-footer-title">Health & Safety Rules</h5>
                     <p>Food safety is an important issue at Fresh markets. Customers expect the food and products they
                         purchase to be grown and handled so that they will be safe to consume.</p>
                 </div>
@@ -567,27 +533,26 @@
 
 
 
-            <div class="footer container"
-                style="background-color: #2A6049; width: 100%;  margin-top: 220px; display: flex; justify-content: center; font-family:unset;">
+            <div class="footer second-footer container">
 
-                <div class="footer-1" style="width:20% ; font-size: 15px;  margin-top: 50px;   margin-bottom: 50px; ">
+                <div class="second-footer-block">
                     <div>
-                        <h5 style="color: rgb(255, 233, 233); font-weight: 300; margin-bottom: 50px;">STORE</h5>
+                        <h5 class="second-footer-title">STORE</h5>
                     </div>
-                    <div style="margin-bottom: 7px; ">
-                        <a href="" style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300; ">Shop
+                    <div class="second-footer-text" >
+                        <a class="second-footer-text-store" href="" >Shop
                             All</a>
                     </div>
-                    <div style="margin-bottom: 7px; ">
-                        <a href="" style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300; ">Shipping
+                    <div class="second-footer-text">
+                        <a class="second-footer-text-store" href="">Shipping
                             & Returns</a>
                     </div>
-                    <div style="margin-bottom: 7px; ">
-                        <a href="" style="text-decoration:none; color: rgb(255, 233, 233);  font-weight: 300;">Store
+                    <div class="second-footer-text" >
+                        <a  class="second-footer-text-store" href="">Store
                             Policy</a>
                     </div>
-                    <div style="margin-bottom: 7px; ">
-                        <a href="" style="text-decoration:none; color: rgb(255, 233, 233);  font-weight: 300;">FAQ</a>
+                    <div class="second-footer-text">
+                        <a class="second-footer-text-store" href="">FAQ</a>
                     </div>
                 </div>
 
@@ -596,17 +561,17 @@
 
 
 
-                <div class="footer-2" style="width:20% ; font-size: 15px;  margin-top: 50px;   margin-bottom: 50px;  ">
+                <div class="second-footer-block">
                     <div>
-                        <h5 style="color: rgb(255, 233, 233); font-weight: 300; margin-bottom: 50px;">ADDRESS</h5>
+                        <h5 class="second-footer-title">ADDRESS</h5>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300;  margin: 0;">500
+                        <p class="second-footer-text-adress">500
                             Terry Francois Street
                         </p>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300; margin: 0;">San
+                        <p  class="second-footer-text-adress">San
                             Francisco, CA 94158</p>
                     </div>
                 </div>
@@ -614,43 +579,40 @@
 
 
 
-                <div class="footer-3" style="width:20% ; font-size: 15px;  margin-top: 50px;   margin-bottom: 50px;  ">
+                <div class="second-footer-block">
                     <div>
-                        <h5 style="color: rgb(255, 233, 233); font-weight: 300; margin-bottom: 50px;">OPENING HOURS</h5>
+                        <h5 class="second-footer-title">OPENING HOURS</h5>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300;  margin: 0; ">5Mon
+                        <p class="second-footer-text-opening-hours">5Mon
                             - Fri: 7am - 10pm
                         </p>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300;  margin: 0; ">
+                        <p class="second-footer-text-opening-hours" >
                             Saturday: 8am - 10pm</p>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300;  margin: 0; ">
+                        <p class="second-footer-text-opening-hours">
                             Sunday: 8am - 11pm</p>
                     </div>
                 </div>
 
 
-                <div class="footer-4"
-                    style="width:20% ; font-size: 15px;  margin-top: 50px;   margin-bottom: 50px; margin-left: 20px; ">
+                <div class="second-footer-block">
                     <div>
-                        <h5 style="color: rgb(255, 233, 233); font-weight: 300; margin-bottom: 50px;">GET IT FRESH</h5>
+                        <h5  class="second-footer-title">GET IT FRESH</h5>
                     </div>
                     <div>
-                        <p style="text-decoration:none; color: rgb(255, 233, 233); font-weight: 300;  margin: 0;  ">
+                        <p class="second-footer-text-Get-it"  ">
                             Email
                         </p>
                     </div>
                     <div>
-                        <input required id="email" pattern=".+@gmail.com" class="email-btn" type="email"
-                            style="width: 100%; margin-top: 7px;">
+                        <input class="footer-email" required id="email" pattern=".+@gmail.com" class="email-btn" type="email">
                     </div>
-                    <div style="margin-top: 7px;">
-                        <button class="btn btn-light btn-hover my-button"
-                            style="width: 100%; height: 33px; text-align: center; font-size: 12px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  color: #2A6049   ;">SUBSCRIBE
+                    <div class="second-footer-text" >
+                        <button class="btn btn-light btn-hover my-button">SUBSCRIBE
                             NOW</button>
                     </div>
 
@@ -661,23 +623,26 @@
             </div>
 
 
-            <div class="container" style="background-color: #2A6049; display: flex;">
-                <div style="width: 50%; text-align: center; padding: 30px;">
-                    <p style="color:rgb(255, 233, 233); font-family:unset; font-size: 14px; font-weight: 300;">
+            <div class="container end-footer">
+                <div class="end-footer-block">
+                    <p class="end-footer-text">
                         © 2021 by Fresh Market
                     </p>
                 </div>
-                <div style="width: 50%; text-align: center; padding: 30px; color:rgb(255, 233, 233) ;">
-                    <a href="" style="color: rgb(255, 233, 233);"><i class="fab fa-youtube"
-                            style="padding-left: 120px; font-size: 25px;"></i></a>
-                    <a href="" style="color: rgb(255, 233, 233);"><i class="fab fa-instagram"
-                            style="padding-left: 20px; font-size: 25px;"></i></a>
-                    <a href="" style="color: rgb(255, 233, 233);"><i class="fab fa-facebook"
-                            style="padding-left: 20px; font-size: 25px;"></i></a>
-                    <a href="" style="color: rgb(255, 233, 233);"><i class="fab fa-twitter-square"
-                            style="padding-left: 20px; font-size: 25px;"></i></a>
+                <div class="end-footer-icons">
+                    <a class="end-footer-icon-a" href="">
+                        <i class="fab fa-youtube end-footer-icon-i"></i></a>
+                    <a class="end-footer-icon-a" href="" >
+                        <i class="fab fa-instagram end-footer-icon-i"></i></a>
+                    <a class="end-footer-icon-a" href="" >
+                        <i class="fab fa-facebook end-footer-icon-i"></i></a>
+                    <a class="end-footer-icon-a" href="">
+                        <i class="fab fa-twitter-square end-footer-icon-i"></i></a>
+                        
                 </div>
+                
             </div>
+           
 
 
 
@@ -685,6 +650,8 @@
 
         </div>
     </div>
+
+
     <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 
