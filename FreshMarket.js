@@ -150,13 +150,20 @@ function showSlidePrev(index) {
 
 $('.chat-logo').click(function () {
     $('.chat').show();
-   
+    $('.carousel-control-prev').css({
+        "z-index": "-1"
+
+    })
 });
 
 
 
 $('.close-chat').click(function () {
     $('.chat').hide();
+    $('.carousel-control-prev').css({
+        "z-index": "none"
+
+    })
    
 });
 
@@ -192,15 +199,14 @@ $('.products-digit').click(function () {
 
     })
 
-    $('.card-product-list').slideDown(700);
-    
+    $('.card-product-list').fadeIn(700);
+    $('.card-product-list').animate({right: '0rem'});
 });
 
 $('.product-close').click(function () {
 
-    $('.card-product-list').slideUp(700);
-
-
+    $('.card-product-list').animate({right: '38rem'});
+    $('.card-product-list').fadeOut("fast");
 
     $('.allSite').css({
         "opacity": "1",
@@ -215,23 +221,6 @@ $('.product-close').click(function () {
 
 // -----------------------------------------------------------
 
-$( ".log-in-link" ).click(function(){
-    $(".log-in").show();
-    $(".allSite").hide();
-    $(".chat-logo").hide();
-})
 
 
 
-$( ".close-log" ).click(function(){
-    $(".log-in").hide();
-    $(".allSite").show();
-    $(".chat-logo").show();
-})
-
-
-
-
-// ---------------------------------------------------------------
-
-// -----------------------------------------------------------------

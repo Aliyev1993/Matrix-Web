@@ -1,0 +1,141 @@
+.Sign-up{
+    background-color: white;
+     width: 100%; 
+     height: 100%;
+      
+}
+
+
+.Sign-up-block{
+    width: 100%; 
+    height: 100%; 
+     background-color: white; 
+      padding-top: 3%;
+}
+
+.Sing-up-text{
+    text-align: center;
+     font-weight: bold;
+     
+}
+
+.Sign-up-text-2{
+    text-decoration: none;
+    color: #2c6d51; 
+}
+
+.Sign-up-text-2:hover{
+    color: #4a8a6f;
+}
+
+
+
+.Sign-up-already-text{
+    text-align: center; 
+    padding-top: 1%;
+     font-size:large;
+}
+
+.sign-up-link{
+    text-decoration: none;
+}
+
+
+.Sign-up-buttons{
+    display: grid;
+     justify-content: center;
+}
+
+.close-log{
+    position: absolute;
+     right: 0 ;
+      top: 0;
+       font-size: 2rem;
+        color: #000000;
+         padding-top: 3%;
+          padding-right: 5%;
+           font-weight: 550;
+}
+
+
+
+
+.button-block{
+    margin-bottom: 4%;
+}
+
+.button-email{
+    background-color:#ffffff ;
+    border: 0.1rem solid grey;
+    color: grey;
+    padding-left: 2%;
+    padding-right: 4%;
+    border-radius:0.5rem 0.5rem 0.5rem 0.5rem;
+    padding-top:0.3%; 
+    
+}
+
+ .button-email:hover{
+    border: 0.12rem solid rgb(0, 0, 0);
+    color: black;
+   
+}
+
+
+.hr-div-signin{
+    display: inline;
+     display: flex;
+      justify-content: center;
+       padding-top: 4%; 
+       padding-bottom: 4%;
+}
+
+.hr-block-singin-left{
+    padding-left: 37%; 
+}
+
+.hr-block-singin-right{
+    padding-right: 37%; 
+}
+
+.hr-signin{
+    background-color: black;
+
+}
+
+.google-text{
+    color: white;
+}
+
+
+
+.button-email-div{
+    display: flex;
+     justify-content: center; 
+ 
+}
+
+.button-email-block{
+    display: inline; 
+}
+
+.email-text-block{
+    float: left;
+     margin-left: 2.7rem;
+      margin-top: 0.5rem;
+       padding-bottom: 0.6rem;
+}
+
+.email-text{
+    color: rgb(0, 0, 0);
+     font-weight: 350;
+}
+
+
+.log-in-with-email{
+    display: none;
+     background-color: white;
+      width: 100%; 
+      height: 100%;
+        padding-bottom: 5%;
+}
