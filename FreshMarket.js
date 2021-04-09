@@ -224,3 +224,8 @@ $('.product-close').click(function () {
 
 
 
+$('.second-element-responsive').click(function () {
+    $( '.second-element' ).toggle()
+
+});
+
