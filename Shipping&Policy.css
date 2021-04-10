@@ -1,0 +1,32 @@
+.Text-Block{
+    margin-top: 10%; 
+    background-color: white;
+     padding-top: 10%;
+      padding-bottom: 5%;
+}
+
+
+.Text-Title{
+    color: #2A6049;
+     text-align: center;
+}
+
+.Text-Title-First{
+    color: #2A6049;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Text-Body-Block{
+    padding-left: 15%;
+     padding-right: 15%;
+}
+
+.Text{
+    color: #000000;
+     text-align: center;
+      margin-top: 5%;
+       margin-bottom: 5%;
+        font-size: 1.3rem;
+}

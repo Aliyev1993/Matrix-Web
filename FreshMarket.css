@@ -439,7 +439,7 @@ input::-webkit-inner-spin-button {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  padding-top: 6rem;  
+  padding-top: 11rem;  
   height: auto;
   width: 5%;
   outline: black;
@@ -618,16 +618,15 @@ width: 30%;
     background-color: #2A6049; 
     width: 100%;
       margin-top: 17%;
-     
        display: flex;
-        justify-content: center;
+        justify-content:space-between;
          font-family:unset;
        
 }
 
 .second-footer-row{
     width: 100%;
-   padding-left: 15%;
+   padding-left: 10%;
 }
 
 .second-footer-block{
@@ -637,6 +636,10 @@ width: 30%;
     justify-content: center;
 }
 .second-footer-col{
+    width:30% ;
+}
+
+.second-footer-col-email{
     width:30% ;
 }
 
@@ -687,6 +690,8 @@ width: 30%;
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
@@ -758,7 +763,7 @@ width: 30%;
 }
 
 .end-text{
-    padding-left: 17%;
+    padding-left: 10%;
      margin-bottom: 1%; 
      color: aliceblue;
 }
@@ -766,6 +771,9 @@ width: 30%;
 @media only screen and (max-width: 572px) and (min-width: 0px){
     .second-footer-col{
     width: 100%;
+    }
+    .second-footer-col-email{
+        width:100% ;
     }
 
     .email-config{
@@ -1019,14 +1027,24 @@ width: 30%;
 }
 
 .card-product-list-2{
+    display: flex;
+    justify-content: center;
     width: 100%; 
     float:left;
-      border: none; 
+    border: none; 
 }
 
 .card-img-top{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  
+}
+
+.card-img-view{
     width: 50%;
-    margin-left: 25%; 
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .card-title-product-list{
@@ -1045,12 +1063,13 @@ width: 30%;
 }
 
 .card-products-control{
+    display: flex;
     justify-content: center;
-    margin-left: 13%;
+    
 }
 
 .products-control-input{
-    height: 1.5rem;
+    height: auto;
     background-color:black;
     color: white;
 }
@@ -1102,74 +1121,6 @@ input {outline:none;}
 
 
 
-
-
-
-
-input[type=range] {-webkit-appearance: none; margin: 0.58rem 0; background-color: transparent !important;}
-
-input[type=range]:focus {outline: none;}
-
-input[type=range]::-webkit-slider-runnable-track {cursor: pointer; box-shadow: 0.24rem 0.24rem  0.62rem  rgba(194, 194, 196, 0.72), 0rem  0rem  0.24rem  rgba(227, 227, 230, 0.72); background: #b9b9b9; border-radius: 2.16rem ; border: 0.1rem  solid #b9b9b9;}
-
-input[type=range]::-webkit-slider-thumb {box-shadow: 0.24rem  0.24rem  0.95rem  rgba(4, 16, 14, 0.78), 0rem  0rem  0.24rem  rgba(9, 36, 32, 0.78); border: 0.18rem  solid #105235; border-radius: 2.8rem ; background: black; cursor: pointer; -webkit-appearance: none; margin-top: -0.78rem ;}
-
-input[type=range]:focus::-webkit-slider-runnable-track {background: #b9b9b9;}
-
-input[type=range]::-moz-range-track {width: 100%; cursor: pointer; box-shadow: 0.24rem 0.24rem  0.62rem rgba(212, 212, 214, 0.72), 0rem  0rem  0.24rem rgba(243, 243, 243, 0.72); background: #b9b9b9; border-radius: 2.16rem; border:0.1rem solid #b9b9b9;}
-
-input[type=range]::-moz-range-thumb {box-shadow: 0.24rem  0.24rem  0.95rem rgba(4, 16, 14, 0.78),  0rem  0rem  0.24rem rgba(9, 36, 32, 0.78); border: 0.18rem solid #105235; border-radius: 2.8rem; background: #000; cursor: pointer;}
-
-input[type=range]::-ms-track {width: 100%; cursor: pointer; background: transparent; border-color: transparent; color: transparent;}
-
-input[type=range]::-ms-fill-lower {background: #b9b9b9; border: 1px solid #b9b9b9; border-radius: 4.32rem; box-shadow:  0.24rem 0.24rem  0.62rem rgba(239, 239, 241, 0.72),  0.24rem 0.24rem  0.62rem rgba(237, 237, 240, 0.72);}
-
-input[type=range]::-ms-fill-upper {background: #b9b9b9; border: 1px solid #b9b9b9; border-radius: 4.32rem; box-shadow:  0.24rem 0.24rem  0.62rem rgba(236, 236, 238, 0.72),  0.24rem 0.24rem  0.62rem rgba(239, 239, 240, 0.72);}
-
-input[type=range]::-ms-thumb {box-shadow: 0.24rem  0.24rem  0.95rem rgba(4, 16, 14, 0.78), 0rem  0rem  0.24rem rgba(9, 36, 32, 0.78); border: 0.18rem solid #105235; border-radius: 2.8rem; background: black; cursor: pointer;}
-
-input[type=range]:focus::-ms-fill-lower {background:#b9b9b9;}
-
-input[type=range]:focus::-ms-fill-upper {background: #b9b9b9;}
-
-/* Track */
-input[type=range]::-webkit-slider-runnable-track {height: 0.64rem;}
-input[type=range]::-moz-range-track {height: 0.64rem;}
-input[type=range]::-ms-track {height: 0.64rem;}
-
-/* Thumb */
-input[type=range]::-webkit-slider-thumb {height: 0.2rem; width: 0.8rem;}
-input[type=range]::-moz-range-thumb {height: 0.2rem; width: 0.8rem;}
-input[type=range]::-ms-thumb {height: 0.2rem; width: 0.8rem;}
-
-
-.input-contact-subject:hover, .input-contact:hover {
-    border: 0.2rem solid #105235;
-}
-
-
-
-.text-area:hover{
-    border: 0.2rem solid #105235;
-}
-
-
-
-.warning{
-    border:0.2rem solid #ff0000;
-}
-
-.submit-contact:hover{
-    background-color: rgb(135, 194, 135);
-}
-
-
-
-
-
-/* ------------------------------------------------------------ */
-
-
 .my-chat:hover, .my-chat:active{
     opacity: 1;
         transition: ease-out 0.33s;
@@ -1184,3 +1135,5 @@ input[type=range]::-ms-thumb {height: 0.2rem; width: 0.8rem;}
 
 
 
+
+        

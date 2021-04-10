@@ -1,0 +1,154 @@
+.Faq-Block{
+    background-color: #FBF9F1;
+}
+.Faq-container{
+    padding-left: 10%; padding-right: 10%; 
+}
+
+.Faq-Title{
+    color: #2A6049;
+     margin-top: 20%;
+      text-align: center;
+}
+
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: rgb(0, 0, 0);
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+
+.Faq-Block-first{
+    display:inline-block;
+     width: 100%;
+      padding-top: 1%;
+       margin-top:10%
+}
+
+.Faq-Block{
+    display:inline-block;
+     width: 100%;
+      padding-top: 1%;
+       margin-top:4%
+}
+
+.faq-title-block{
+    width:70%; 
+    float: left; 
+}
+
+.faq-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+     width: 80%;
+      font-family:'Courier New', Courier, monospace;
+}
+
+.plus-icon{
+    float: right;
+     margin-right: 0.7rem; 
+}
+
+.fa-plus{
+    color: rgb(156, 154, 154);
+     font-size: 0.9rem;
+}
+
+.minus-icon{
+    float: right; 
+    margin-right: 0.8rem;
+     display: none;
+}
+
+.fa-minus{
+    color: rgb(156, 154, 154);
+     font-size: 0.8rem;
+}
+
+.faq-text-slider{
+    display: none;
+     float: right;
+      margin-right: 3%;
+       width: 100%;
+        font-size: 1.2rem;
+         padding-left: 15%;
+          padding-top: 10%; 
+          padding-bottom: 10%;
+}
+
+.faq-hr{
+    background-color:
+     #61967f;
+      border: .01px solid #2A6049;
+       padding-bottom: 0;
+        margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
