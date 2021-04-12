@@ -3,6 +3,30 @@ html{
     font-size: 12px;
 }
 
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200) {
+    html{
+        font-size: 12px;
+    }
+}
+
 
 
 
@@ -41,7 +65,8 @@ html{
 
 .block-info-view-cart{
     float: left;
-     width: 30%;
+     width: 40%;
+     height: auto;
 }
 
 .view-img{
@@ -61,9 +86,9 @@ html{
 }
 
 .view-cart-product-price{
-    font-size: large;
-     padding-top: 5%; 
-     padding-bottom: 4%;
+    font-size: 1.5rem;
+     padding-top: 20%; 
+     padding-bottom: 29%;
 }
 
 
@@ -92,8 +117,9 @@ background-color: #2A6049;
     font-weight: 700;
 }
 
-.big-viewcart-price-bloc{
+.big-viewcart-price-block{
     float: right;
+    width: 25%;
 }
 
 
@@ -104,7 +130,7 @@ background-color: #2A6049;
 }
 
 .price-text-view{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .view-close-icon-block{
@@ -117,9 +143,15 @@ background-color: #2A6049;
     color: black;
 }
 
-.fa-times-circle{
-    font-size: 1.8rem; 
+.close-link :hover{
+color: black;
 }
+
+.fa-times-circle{
+    font-size: 1.5rem; 
+}
+
+
 
 .view-card-second-hr-block{
     width: 100%;
@@ -173,8 +205,11 @@ background-color: #2A6049;
 
 .section-2{
     float: left;
-     width: 27%;
      margin-left: 7%;
+}
+
+.col-4{
+    width: 27%;
 }
 
 .text-order-summary{
@@ -239,15 +274,20 @@ background-color: #2A6049;
     width:100%;
      float: left;
       margin-top: 8%;
+      display: flex;
+      justify-content: center;
 }
 
 .fa-lock{
     float: left; 
     padding-top: 5%;
-     padding-left: 32%; 
      color: white;
 }
 
+.checkout{
+    display: flex;
+    justify-content: center;
+}
 .chekout-text{
     float: left;
      margin-left: 3%;
@@ -263,4 +303,168 @@ background-color: #2A6049;
     position: fixed; 
     margin-left:4.5%;
      top: 0;
+}
+
+.cheklist-block{
+    width:100%;
+    display: flex;
+     justify-content: center;
+}
+
+.cheklist-message-block{
+    width: 60%;
+      background: white;
+       padding-bottom: 7%;
+        padding-top: 2%;
+}
+
+.cheklist-close-block{
+    float: right;
+     padding: 5%;
+}
+
+.close-checkout{
+    color: black; 
+}
+
+.close-checkout:hover{
+    color: black;
+}
+
+.chekout-close-icon{
+    font-size: 1.6rem;
+}
+
+.checkout-title-block{
+    padding-top: 10%;
+     width: 80%; 
+     padding-left: 20%;
+}
+
+.checkout-title-text{
+    text-align: center; 
+    font-size: 2.5rem;
+}
+
+.checkout-text-block{
+    padding-top: 5%;
+}
+
+.checkout-text{
+    font-weight: 300;
+     text-align: center;
+}
+
+.checkout-button-block{
+    display: flex;
+     justify-content: center;
+     margin-top: 3%;
+}
+
+.button-got-it{
+    border: none;
+     background-color: #000000;
+      padding-left: 5%;
+       padding-right: 5%;
+        padding-top:1% ;
+         padding-bottom: 1%;
+}
+
+.button-got-it-text{
+    color: white;
+     font-weight: 300;
+      margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    .view-cart-product-price{
+        padding-top: 13.4%; 
+        padding-bottom: 12%;
+    }
+
+    .info-and-functions-block{
+        width: 40%;
+       
+    }
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .col-8{
+        width: 65%;
+    }
+
+    .col-4{
+        width:25%
+    }
+
+    .view-img{
+        width: 100%;
+    }
+    .big-viewcart-price-block{
+        width: 25%;
+    }
+
+    .info-and-functions-block{
+        width: 40%;
+       
+    }
+
+    .view-cart-product-price{
+        padding-top: 13.4%; 
+        padding-bottom: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 572px){
+    .col-8{
+        width: 65%;
+    }
+
+    .col-4{
+        width:25%
+    }
+
+    .view-img{
+        width: 100%;
+    }
+    .big-viewcart-price-block{
+        width: 25%;
+    }
+
+    .info-and-functions-block{
+        width: 50%;
+   
+    }
+
+    .block-info-view-cart{
+        width: 50%;
+    }
+
+    .view-cart-product-price{
+        padding-top: 8%; 
+        padding-bottom: 0%;
+    }
+    
+}
+
+@media only screen and (max-width: 572px) and (min-width: 0px){
+    .col-8{
+        width: 100%;
+    }
+
+    .col-4{
+        margin-top: 10%;
+        width:70%;
+        margin-left: 15%;
+    }
+
+    .view-cart-product-price{
+        padding-top: 20%; 
+        padding-bottom: 25%;
+    }
+    .block{
+        justify-content: center;
+    }
+
 }

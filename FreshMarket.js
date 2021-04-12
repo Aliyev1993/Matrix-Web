@@ -81,3 +81,6 @@ $('.second-element-responsive').click(function () {
 
 });
 
+
+
+
