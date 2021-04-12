@@ -1,0 +1,266 @@
+
+html{
+    font-size: 12px;
+}
+
+
+
+
+.view-cart-block{
+    padding: 10%;
+     margin-top: 10%;
+      background-color: white;
+}
+
+.row-view{
+    display:inline-block;
+     background-color: white;  
+}
+
+
+.section-1{
+    float: left; 
+   
+}
+
+.col-8{
+    width: 65%;
+}
+.text-My-cart{
+    color: #2A6049;
+}
+
+.hr-view-cart{
+    border: #2A6049;
+}
+
+.block-info{
+    padding-top: 3%;
+     display: inline-block;
+}
+
+.block-info-view-cart{
+    float: left;
+     width: 30%;
+}
+
+.view-img{
+    width:100%;
+     border: 1px solid black;
+}
+
+.info-and-functions-block{
+    float: left;
+     width: 30%;
+      margin-left: 5%;
+       margin-top:  2%;
+}
+
+.view-cart-product-name{
+    font-size: 0.9rem;
+}
+
+.view-cart-product-price{
+    font-size: large;
+     padding-top: 5%; 
+     padding-bottom: 4%;
+}
+
+
+
+.view-cart-btn{
+    display: flex; 
+    justify-content: center;
+     border: 0.1rem solid #2A6049;
+     background-color: #2A6049;
+     border-radius: 1rem 1rem 1rem 1rem;
+    
+}
+
+.view-cart-input{
+    margin-top:1%;
+background-color: #2A6049;
+}
+
+.minus-view{
+    color: white;
+    font-weight: 700;
+}
+
+.plus-view{
+    color: white;
+    font-weight: 700;
+}
+
+.big-viewcart-price-bloc{
+    float: right;
+}
+
+
+
+.block-price-text{
+    float: left;
+    margin-left: 10%;
+}
+
+.price-text-view{
+    font-size: 1.5rem;
+}
+
+.view-close-icon-block{
+    float: right; 
+    margin-left: 5%;
+     margin-right:4%;
+}
+
+.close-link{
+    color: black;
+}
+
+.fa-times-circle{
+    font-size: 1.8rem; 
+}
+
+.view-card-second-hr-block{
+    width: 100%;
+     margin-top:5%;
+}
+
+.view-card-second-hr{
+    border: #2A6049;
+}
+
+.prome-code-block{
+    display: inline; 
+}
+
+.fa-tag{
+    float: left;
+}
+
+.promo-code-text{
+    float: left;
+     margin-left: 1%; 
+     font-weight: 200;
+}
+
+.add-note-block{
+    width: 100%; 
+     float: left;
+      display: inline;
+}
+
+.add-note-img{
+    float: left; 
+    width: 3%;
+}
+
+.add-note-text{
+    font-weight: 200;
+     float: left;
+      margin-left: 1%;
+}
+
+.ssl-block{
+    width: 100%;
+     margin-top: 1%; 
+     float: left;
+}
+
+.ssl-img{
+    width:6%;
+}
+
+.section-2{
+    float: left;
+     width: 27%;
+     margin-left: 7%;
+}
+
+.text-order-summary{
+    color: #2A6049;
+}
+
+.hr-order-summary{
+    border: #2A6049;
+}
+
+.order-summary-block{
+    display: inline;
+     width: 100%;
+}
+
+.block-subtotal{
+    float: left;
+}
+
+.subtotal-text{
+    font-weight: 300;
+}
+
+.summary-price-block{
+    float: right;
+}
+
+.shipping-block{
+    width: 100%;
+     float: left;
+}
+
+.text-shipping{
+    color: black; 
+    font-weight: 300;
+}
+
+.hr-total-block{
+    width: 100%; 
+    float: left;
+     margin-top:28%;
+}
+
+.hr-total{
+    border: #2A6049;
+}
+
+.total-block-price{
+    width: 100%;
+     float: left;
+}
+
+.total-price-text{
+    float: left;
+}
+
+.total-all-price{
+    float: right;
+}
+
+.checkout-button-block{
+    width:100%;
+     float: left;
+      margin-top: 8%;
+}
+
+.fa-lock{
+    float: left; 
+    padding-top: 5%;
+     padding-left: 32%; 
+     color: white;
+}
+
+.chekout-text{
+    float: left;
+     margin-left: 3%;
+       padding-top: 2.5%; 
+       margin-bottom: 5%;
+        color: white;  
+        font-weight: 300;
+        font-size: 1.2rem;
+}
+
+.checkout-list{
+    display: none; 
+    position: fixed; 
+    margin-left:4.5%;
+     top: 0;
+}

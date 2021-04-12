@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="FreshMarket.css">
-
+    <link rel="stylesheet" href="viewcart.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
@@ -81,50 +81,53 @@
            
         </nav>
 
-<div class="container" style="padding: 10%; margin-top: 10%; background-color: white;">
-    <div  style=" display:inline-block; background-color: white;  ">
-        <div class="section-1" style="float: left; width: 65%;">
+
+
+
+
+<div class="container view-cart-block">
+    <div class="row row-view">
+        <div class="section-1 col-8">
             <div>
-   <p style="color: #2A6049;"><b> My Cart</b></p>
+   <p class="text-My-cart"><b> My Cart</b></p>
 </div>
 
 
 <div>
-<hr style="border: #2A6049; ">
+<hr class="hr-view-cart">
 </div>
 
 
-<div style="padding-top: 3%; display: inline-block;">
-<div style=" float: left; width: 30%;">
-    <img src="gallery/p-31.jpeg" alt="" style="width:100%; border: 1px solid black;">
+<div class="block-info">
+<div class="block-info-view-cart">
+    <img class="view-img" src="gallery/p-31.jpeg" alt="">
 </div>
 
 
-<div style="float: left; width: 30%; margin-left: 30px; margin-top:  10px;">
-    <p style="font-size: 11px;">POWERADE Power Water, Cucumber Lime, Zero Sugar Zero</p>
-    <p style="font-size: large; padding-top:  15px; padding-bottom: 12px;"><b>$3.68</b> </p>
+<div class="info-and-functions-block">
+    <p class="view-cart-product-name">Powerade Power Water, Cucumber Lime, Zero Sugar Zero</p>
+    <p class="view-cart-product-price"><b>$3.68</b> </p>
     
-    <div style="display: flex; justify-content: center; border: 1px solid #2A6049;  ">
-        <div class="counter" style="width: 100%; padding-top: 7px; padding-right: 5px;">
-            <button class="minus  btn light" 
-                style="margin-left: 19%; width: 10%; padding: 0;">-</button>
-            <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
-                value="0" class="num" style="width: 40%; height: 50%; background-color: white; color: black;">
-            <button class="plus  btn light" style=" width: 10%;  padding: 0;">+</button>
+    <div class="summ-product-btn view-cart-btn">
+        <div class="counter">
+            <button class="minus  btn light minus-view" >-</button>
+            <input class="summ-products-input btn light view-cart-input" type="number" min="0" max="1000000" step="1"
+                value="0">
+            <button class="plus  btn light plus-view">+</button>
         </div>
     </div>
 </div>
 
 
-<div style="float: right;">
-    <div style="display: inline-block;">
-        <div style="float: left;">
-            <p  style="font-size: 20px;"><b>$3.68</b></p>
+<div class="big-viewcart-price-block">
+    <div class="price-functions">
+        <div class="block-price-text">
+            <p class="price-text-view"><b>$3.68</b></p>
             
         </div>
-        <div style="float: right; margin-left: 40px; margin-right: 30px;">
-            <a href="#" style="color: black;">
-            <i class="far fa-times-circle" style="font-size: 23px; "></i>
+        <div class="view-close-icon-block">
+            <a class="close-link" href="#">
+            <i  class="far fa-times-circle"></i>
         </a>
         </div>
 
@@ -140,23 +143,23 @@
 </div>
 
 
-<div style="width: 100%; margin-top: 30px;">
-    <hr style="border: #2A6049;">
+<div class="view-card-second-hr-block">
+    <hr class="view-card-second-hr">
 </div>
 
-<div style="display: inline; ">
-    <i class="fas fa-tag" style="float: left; "></i>
-    <p style="float: left; margin-left: 10px; font-weight: 200;">Enter a prome code</p>
+<div class="prome-code-block">
+    <i  class="fas fa-tag"></i>
+    <p  class="promo-code-text">Enter a prome code</p>
     
 </div>
 
-<div style="width: 100%;  float: left; display: inline;">
-    <img src="gallery/note.png" alt="" style="float: left; width: 20px;">
-    <p style="font-weight: 200; float: left; margin-left: 10px;">Add a note</p>
+<div class="add-note-block">
+    <img class="add-note-img" src="gallery/note.png" alt="">
+    <p class="add-note-text">Add a note</p>
  </div>
 
-<div style="width: 100%; margin-top: 10px; float: left;">
-   <img src="gallery/ssl-certificate.png" alt="" style="width:50px">
+<div class="ssl-block">
+   <img class="ssl-img" src="gallery/ssl-certificate.png" alt="">
 </div>
 
 </div>
@@ -164,41 +167,42 @@
 
 
 
-<div style="float: left; width: 27%;margin-left: 70px;">
+<div class="section-2 col-4">
     <div>
-    <p style="color: #2A6049;"><b> Order Summary</b></p>
+    <p class="text-order-summary"><b> Order Summary</b></p>
 </div>
-<hr style="border: #2A6049;">
+<hr class="hr-order-summary">
 
-<div style="display: inline; width: 100%;">
-<div style="float: left;">
-    <p style="font-weight: 300;">Subtotal</p>
+<div class="order-summary-block">
+<div class="block-subtotal">
+    <p class="subtotal-text">Subtotal</p>
 </div>
 
-<div style="float: right;">
+<div class="summary-price-block">
     <p><b> $3.68</b></p>
 </div>
 
 </div>
 
-<div style="width: 100%; float: left;">
-<a href="#" style="color: black; font-weight: 300;">Estimate Shipping</a>
+
+<div class="shipping-block">
+<a class="text-shipping" href="#">Estimate Shipping</a>
 </div>
 
-<div style="width: 100%; float: left; margin-top: 40px;">
-<hr style="border: #2A6049;">
+<div class="hr-total-block">
+<hr class="hr-total">
 </div>
 
-<div style="width: 100%; float: left;">
-<p style="float: left;"><b> Total</b></p>
-<p style="float: right;"><b>$3.68</b></p>
+<div class="total-block-price">
+<p  class="total-price-text"><b> Total</b></p>
+<p class="total-all-price"><b>$3.68</b></p>
 </div>
 
-<div  style="width:100%; float: left; margin-top: 20px;">
+<div class="checkout-button-block">
 
-    <button class="checkout" ">
-        <i class="fas fa-lock" style="float: left; padding-top: 13px; padding-left: 67px; color: white;"></i>
-        <p style="float: left; margin-left: 10px;  padding-top: 9px; margin-bottom: 10px; color: white;  font-weight: 300;">Checkout</p>
+    <button class="checkout">
+        <i  class="fas fa-lock"></i>
+        <p class="chekout-text">Checkout</p>
     </button>
 
 </div>
@@ -330,10 +334,6 @@
 
 
 
-
-
-
-
 </div>
 
 <!-- END TEXT -->
@@ -454,8 +454,9 @@
 
 
 
+
             
-        <div class="container checkout-list"  style="display: none; position: fixed; margin-left: 70px; top: 0;">
+        <div class="container checkout-list">
             <div class="container" style="width:100%;display: flex; justify-content: center;">
                 <div style="width: 60%;  background: white; padding-bottom: 7%; padding-top: 2%;" >
                     <div style="float: right; padding: 20px;">
@@ -496,7 +497,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
-    <script src="FreshMarketShop.js"></script>
+    <script src="FreshMarket.js"></script>
+    <script src="viewCart.js"></script>
 
 
 

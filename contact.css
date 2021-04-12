@@ -1,0 +1,238 @@
+
+html{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200) {
+    html{
+        font-size: 12px;
+    }
+}
+
+
+.contact-block{
+    margin-bottom: 10%;
+}
+
+
+.contact-case{
+    padding: 2%;
+}
+
+.card-body-contact{
+     color:#2A6049; 
+      text-align: center;
+       margin-top: 15%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-title-contact{
+    font-size: 3rem;
+}
+
+
+.card-text{
+    font-size:1.3rem;
+     margin-top: 5%;
+      margin-bottom: 10%;
+}
+
+.contact-hr{
+    margin-left: 10%;
+     margin-right: 10%;
+}
+
+.info-block{
+    display: inline-block;
+     padding-top: 5%;
+      padding-left: 17%;
+        justify-content: center;
+}
+
+.contact-text-block{
+    width: 50%;
+     float: left; 
+     display: block;
+      justify-content: center;
+}
+
+.contact-text-block-title{
+    padding-bottom: 2%; 
+}
+
+.contact-first-title{
+    color: #2A6049;
+    font-size: 1.5rem;
+}
+
+.contact-body-text-block{
+    font-weight: 300;
+    width: 100%;
+}
+
+.contact-body-text{
+    color: #2A6049;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.contact-inputs-block{
+    margin-top: 10%;
+}
+
+.first-row-input{
+    display: flex;
+     justify-content: center;
+}
+
+.First-name-input-block{
+    float: left;
+    
+}
+
+
+.labels-for-input{
+    margin-bottom: 1%;
+     color: gray;
+}
+
+.span-for-input{
+    color: red;
+}
+
+.input-contact{
+    width: 100%;
+}
+
+.last-name-input-block{
+    float: left;
+     margin-left: 7%;
+     
+}
+
+.email-input-block{
+    float: left;
+   
+}
+
+.col-6{
+    width: 30%;
+}
+
+.subject-input-block{
+    float: left; 
+    margin-left: 7%; 
+    
+}
+
+.text-input-block{
+    display: flex;
+     justify-content: center;
+      margin-top:3%;
+       height: 50%; 
+}
+
+.text-area-input-block{
+     width: 60%;
+      margin-right: 2%;
+}
+
+.label-for-text-area{
+    margin-bottom: 1%; 
+    color: gray;
+}
+
+.text-area{
+    width: 100%; 
+    height:100% ;
+}
+
+.second-row-input{
+    display: flex;
+     justify-content: center;
+      margin-top: 1%; 
+}
+
+.submit-btn-block{
+    display: flex;
+     justify-content: center;
+      margin-top: 8%;  
+      
+}
+
+.submit-contact{
+    padding-left: 35%;
+     padding-right: 35%;
+       padding-top: 20%;
+        padding-bottom: 20%;
+         background-color: #105235;
+          color:white;
+           border:none;
+            border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+           
+}
+
+.map-block{
+    display: flex;
+     justify-content: center; 
+     margin-top: 10%;  
+}
+
+.map{
+    width: 100%;
+}
+
+.contact-submit-b{
+margin-right: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .col-6{
+        width: 30%;
+    }
+
+    .text-area-input-block{
+        width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width: 572px){
+    .column-6{
+        width: 50%;
+       
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 572px) and (min-width: 0px){
+    .col-6{
+        width: 100%;
+       margin-left: 0;
+    }
+    .contact-text-block{
+        width: 100%;
+    }
+    
+  }

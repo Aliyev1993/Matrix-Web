@@ -1,0 +1,66 @@
+
+html{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200) {
+    html{
+        font-size: 12px;
+    }
+}
+
+.About-block{
+    padding: 2%;
+    
+}
+
+
+.body-about{
+    padding-bottom: 5%;
+     color:#2A6049;
+       text-align: center; 
+       margin-top: 10%; 
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       margin-top: 15%;
+}
+
+
+.about-title{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+.about-img{
+    margin-top: 5%;
+     margin-bottom: 2%;
+     width: 100%;
+}
+
+.card-text-shop{
+    font-size:1.3rem;
+     margin-top:2%;
+      margin-bottom: 5%;
+}
+
+
+
