@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="FreshMarket.css">
-
+    <link rel="stylesheet" href="productInfo.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
@@ -85,11 +85,12 @@
 
 
 <div>
-       <div class="container product-info" style=" display: flex; justify-content: center; background-color: white; margin-top: 150px; width: 100%; ">
-<div style="width: 50%; float: left;">
-    <div style="width: 100%; margin-bottom: 20%; padding-top: 10%; display: inline-block;"  >
-        <div style="float: left; margin-left: 10%;">
-        <a href="file:///C:/Users/Farhad/Desktop/WorkBranch/Project/Web-Project/Matrix-Web/FreshMarket.html" style="text-decoration: none; color:#2c6d51;"> <b> Home</b></a>
+       <div class="container product-info">
+<div class="row">
+        <div class="home-block col-7">
+    <div class="home">
+        <div class="home-link-block">
+        <a class="home-link" href="FreshMarket.html"> <b> Home</b></a>
     </div>
     <div >
     <p>/ ProductName</p>
@@ -99,24 +100,24 @@
 </div>
 
 
-<div style="margin-left: 30%; padding-bottom: 10%;">
-<img src="gallery/p-26.jpeg" alt="" style="width: 70%;">
+<div class="img-block">
+<img class="img-product" src="gallery/p-26.jpeg" alt="">
 </div>
 
-<div class="container" style="font-size: 13px; margin-left: 33px; padding-bottom: 50px;" >
-    <p style="text-align: center;" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+<div  class="container product-details-block">
+    <p class="products-details-text">
         I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.
     </p>
 </div>
-</div>
+        </div>
 
 <!-- ---------------------------------------------- -->
-<div style="width: 50%;">
+<div class="product-info-block col-5">
 
-    <div class="container" style="padding-top: 50px; padding-left: 400px;">
-    <div style="float:left;">
-        <a href="" style="text-decoration: none; color: #2c6d51;">
-        <p style="font-weight: 700; color: #2c6d51;">
+    <div  class="container next-prev">
+    <div class="next-prev-block">
+        <a class="link-prev" href="">
+        <p class="prev-text">
             Prev 
         </p>
         </a>
@@ -126,8 +127,8 @@
             &nbsp;  | &nbsp;        </p>
     </div>
     <div >
-       <a href="" style="text-decoration: none; color: #2c6d51;">
-        <P style="float: left; font-weight: 700; color: #2c6d51;">
+       <a class="next-link" href="">
+        <P class="next-text">
             Next
         </P>
     </a>
@@ -136,67 +137,66 @@
     
 
    
-    <div style=" margin-top: 170px;  margin-left: 120px;">
+    <div class="container block-info">
         <div>
-            <p style="font-weight: 600;">
+            <p class="text-product-name">
                 I'm a product
             </p>
         </div>
         <div>
-            <p style="font-weight: 300; font-size: 13px;">
+            <p class="product-code">
                 SKU: 0013
             </p>
         </div>
 
         <div>
-            <p style="font-weight: 600;">
-                $9.99Price
+            <p class="price-text">
+                $9.99
             </p>
         </div>
 
         <div>
-            <p style="font-weight: 300; font-size: 13px;" >Quantity</p>
+            <p class="quantity-text">Quantity</p>
         </div>
 
         <div>
-            <div style="display: flex; padding-left: 80px; padding-top: 30px; ">
-                <div class="counter" style="width: 50%; ">
-                    <button class="minus  btn light"
-                        style="margin-left: 19%; width: 10%; padding: 0;">-</button>
-                    <input class="my-input2 btn light" type="number" min="0" max="1000000" step="1"
-                        value="0" class="num" style="width: 40%; height: 50%;">
-                    <button class="plus  btn light" style=" width: 10%;  padding: 0;">+</button>
+            <div class="summ-product-btn">
+                <div class="counter counter-product-info">
+                    <button class="minus  btn light">-</button>
+                    <input class="summ-products-input btn light" type="number" min="0" max="1000000" step="1"
+                        value="0">
+                    <button class="plus  btn light">+</button>
                 </div>
             </div>
         </div>
-        <button class="btn light add-to-card"
-        style="background-color:#387058;color: white; margin-top: 5px; width: 80%; height: 18%; font-size: 11px;">Add
+        <button class="btn light add-to-card">Add
         to
         Cart</button>
-        <button class="btn light add-to-card"
-        style="background-color:#387058;color: white; margin-top: 5px; width: 80%; height: 18%; font-size: 11px;">Buy Now</button>
+        <button class="btn light add-to-card">Buy Now</button>
 </div>
 
-<div class="container"
-style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 100%; ">
 
-<hr
-    style="background-color: #61967f; border: .01px solid #2A6049; padding-bottom: 0; margin: 0;">
-<div style="  display:inline-block; width: 100%; padding-top: 10px ">
-    <div style="width:70%; float: left; ">
-        <h6 style="font-size: 16px; width: 80%;font-family:'Courier New', Courier, monospace;">Product Info</h6>
+
+
+
+<div class="container product-info-slider">
+
+<hr class="hr-product-slider">
+<div class="slider-block-info">
+    <div class="title-text-block">
+        <h6  class="title-text-slider">Product Info</h6>
     </div>
-    <div  class = "plus-icon" style="float: right; margin-right: 10px; ">
+    <div  class = "plus-icon">
         <a href="##" >
-            <i class="fas fa-plus " style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+            <i class="fas fa-plus"></i>
         </a>
     </div>
-    <div class = "minus-icon" style="float: right; margin-right: 10px; display: none; ">
+    <div class = "minus-icon">
         <a href="##" >
-            <i class="fas fa-minus " style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+            <i class="fas fa-minus "></i>
         </a>
     </div>
-    <div  class="list-collection container"  style="margin-top: 40px; font-size: 10px; display: none;">
+    <div  class="list-collection container">
         <p>
             I'm a product detail. I'm a great place to add more information about your product such as 
             sizing, material, care and cleaning instructions. This is also a great space to write what 
@@ -204,23 +204,27 @@ style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Ve
         </p>
     </div>
 </div>
-<hr  style="background-color: #61967f; border: .01px solid #2A6049 ; padding-bottom: 0; margin: 0;">
-<div style="  display:inline-block; width: 100%; padding-top: 10px ">
-    <div style="width:70%; float: left; ">
-        <h6 style="font-size: 16px; width: 80%;font-family:'Courier New', Courier, monospace;">Refund Policy</h6>
+
+
+<hr  class="hr-product-slider">
+
+
+<div  class="slider-block-info">
+    <div class="title-text-block">
+        <h6 class="title-text-slider">Refund Policy</h6>
     </div>
-    <div  class = " plus-icon-price" style="float: right; margin-right: 10px; ">
+    <div  class = " plus-icon-price">
         <a href="##">
-            <i class="fas fa-plus" style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+            <i class="fas fa-plus"></i>
         </a>
     </div>
-        <div class = "minus-icon-price" style="float: right; margin-right: 10px; display: none; ">
+        <div class = "minus-icon-price">
             <a href="##" >
-                <i class="fas fa-minus " style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+                <i class="fas fa-minus "></i>
             </a>
         </div>
     
-    <div class="container range-price" style="display: none; float: right; margin-right: 10px; width: 100%; font-size: 10px; padding-left: 33px; padding-top: 25px; padding-bottom: 25px;" >
+    <div class="container range-price" >
  <p>
     I’m a Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange
      policy is a great way to build trust and reassure your customers that they can buy with confidence.
@@ -229,28 +233,28 @@ style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Ve
     </div>
 </div>
 
-<hr
-    style="background-color: #61967f; border: .01px solid #2A6049; padding-bottom: 0; margin: 0;">
+
+<hr class="hr-product-slider">
 
 
 
 
-    <div style="  display:inline-block; width: 100%; padding-top: 10px ">
-        <div style="width:70%; float: left; ">
-            <h6 style="font-size: 16px; width: 80%; font-family:'Courier New', Courier, monospace;">Shipping Info</h6>
+    <div  class="slider-block-info">
+        <div class="title-text-block">
+            <h6 class="title-text-slider">Shipping Info</h6>
         </div>
-        <div  class = " plus-icon-ship" style="float: right; margin-right: 10px; ">
+        <div  class = " plus-icon-ship">
             <a href="##">
-                <i class="fas fa-plus" style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+                <i class="fas fa-plus"></i>
             </a>
         </div>
-            <div class = "minus-icon-ship" style="float: right; margin-right: 10px; display: none; ">
+            <div class = "minus-icon-ship">
                 <a href="##" >
-                    <i class="fas fa-minus " style="color: rgb(156, 154, 154); font-size: 12px;"></i>
+                    <i class="fas fa-minus "></i>
                 </a>
             </div>
         
-        <div class="container range-ship" style="display: none; float: right; margin-right: 10px; width: 100%; font-size: 10px; padding-left: 33px; padding-top: 25px; padding-bottom: 25px;" >
+        <div class="container range-ship" >
      <p>
         I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy
          is a great way to build trust and reassure your customers that they can buy from you with confidence.
@@ -259,8 +263,7 @@ style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Ve
         </div>
     </div>
     
-    <hr
-        style="background-color: #61967f; border: .01px solid #2A6049; padding-bottom: 0; margin: 0;">
+    <hr class="hr-product-slider">
 
 </div>
 
@@ -268,7 +271,7 @@ style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Ve
 </div>
 
 </div>
-
+</div>
 
 </div>
 
@@ -543,7 +546,9 @@ style="margin-left: 20%;margin-top: 15%; width: 65%; float: left; font-family:Ve
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
-    <script src="FreshMarketShop.js"></script>
+    <script src="FreshMarket.js"></script>
+    <script src="productInfo.js"></script>
+    
 
 
 
