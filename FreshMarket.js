@@ -2,8 +2,14 @@
 
 $('.chat-logo').click(function () {
     $('.chat').show();
-    $('.carousel-control-prev').css({
-        "z-index": "-1"
+    $('.carousel-control-next-icon').css({
+        "z-index": "-1",
+        
+
+    })
+    $('.chat').css({
+        "z-index": "1",
+        
 
     })
 });
