@@ -22,6 +22,7 @@ $('.close-chat').click(function () {
         "z-index": "none"
 
     })
+    
    
 });
 

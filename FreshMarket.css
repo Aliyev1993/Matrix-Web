@@ -847,6 +847,7 @@ width: 30%;
                 0 0 3.5rem rgb(180 180 180 / 0.7),
                 0 0 5rem rgb(180 180 180 / 0.6);
     border-color: #fff;
+   
 }
 
 
@@ -866,6 +867,7 @@ width: 30%;
                     0 0 3.5rem rgb(180 180 180 / 0.7),
                     0 0 5rem rgb(180 180 180 / 0.6);
         border-color: #fff;
+        padding: 33%;
     
 }
 
@@ -988,7 +990,7 @@ width: 30%;
 
 .chat-footer-input{
     margin-left: 5%;
-     width: 55%;
+     width: 70%;
       height: 10%;
        border: 0.1rem solid #387058; 
        border-radius:0.5rem 0.5rem 0.5rem 0.5rem;
@@ -996,7 +998,7 @@ width: 30%;
 }
 
 .chat-footer-button{
-    margin-left: 4%;
+    margin-left: 6%;
      border: 0.1rem solid white;
       background-color: #2A6049;
        color:white; 
@@ -1017,14 +1019,18 @@ width: 30%;
         border-radius: 50%;
     }
     .chat-icon{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         padding: 30%;
     }
     .chat-footer-input{
-        width: 50%;
+        width: 55%;
     }
     .chat-footer-button{
         width: 23%;
+    }
+
+    .chat-icon:hover{
+        padding: 33%;
     }
 }
 
@@ -1041,10 +1047,14 @@ width: 30%;
         padding: 30%;
     }
     .chat-footer-input{
-        width: 55%;
+        width: 50%;
     }
     .chat-footer-button{
         width: 23%;
+    }
+
+    .chat-icon:hover{
+        padding: 30%;
     }
 }
 
@@ -1058,11 +1068,14 @@ width: 30%;
     }
 
     .chat-footer-input{
-        width: 55%;
+        width: 50%;
     }
     .chat-footer-button{
         width: 22%;
         font-size: 0.8rem;
+    }
+    .chat-icon:hover{
+        padding: 30%;
     }
 }
 
@@ -1072,7 +1085,7 @@ width: 30%;
        
     }
     .chat-icon{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 30%;
     }
     .chat-footer-input{
@@ -1085,6 +1098,9 @@ width: 30%;
     .fa-microphone-alt{
         font-size: 1.2rem;
     }
+    .chat-icon:hover{
+        padding: 32%;
+    }
 }
 
 
@@ -1095,7 +1111,7 @@ width: 30%;
        
     }
     .chat-icon{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 30%;
     }
     .chat-footer-input{
@@ -1108,27 +1124,26 @@ width: 30%;
     .fa-microphone-alt{
         font-size: 1.1rem;
     }
+
+    .chat-icon:hover{
+        padding: 32%;
+    }
 }
 
 @media only screen and (max-width: 572px) and (min-width: 0px){
     .my-chat{
-        width: 5%;
+        display: none;
        
     }
     .chat-icon{
-        font-size: 0.8rem;
+        display: none;
     }
-
-    .chat-footer-input{
-        width: 40%;
+   
+    .chat{
+        display: none;
     }
-    .chat-footer-button{
-        width: 25%;
-        font-size: 0.6rem;
-    }
-    .fa-microphone-alt{
-        font-size: 1rem;
-    }
+   
+    
 }
 
 
@@ -1298,4 +1313,21 @@ input {outline:none;}
 
 
 
-        
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

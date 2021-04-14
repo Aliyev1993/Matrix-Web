@@ -1,66 +1,66 @@
 var product=[
     {
-        name: 'Poland Spring No Flavor 100% Natural Spring Water',
-        slary:'$5.29 / ea ($0.22/ea)',
+        name: 'Poland Spring Water',
+        slary:'$5.29',
         image:'gallery/z-1.jpg'
     },
     {
-        name: 'Dial Antibacterial Liquid Hand Soap, Spring Water',
-        slary:'$1.59 / ea ($0.21/fl oz)',
+        name: 'Dial Hand Soap',
+        slary:'$1.59',
         image:'gallery/z-2.jpg'
     },
     {
-        name: 'Hellmann s Real Mayonnaise Real Mayo',
-        slary:'$10.49 / ea ($0.87/ct)',
+        name: 'Hellmann s Mayonnaise',
+        slary:'$30.99',
         image:'gallery/z-3.jpg'
     },
 
     {
-        name: 'Heinz Tomato Ketchup  brand of ketchup produced',
-        slary:'$2.99 / ea ($0.15/oz)',
+        name: 'Heinz Ketchup',
+        slary:'$2.88',
         image:'gallery/z-4.jpg'
     },
 
     {
-        name: 'Tresemmé Shampoo Rich Moisture natural vibrancy',
-        slary:'$2.99 / ea ($0.11/oz)',
+        name: 'Tresemmé Shampoo',
+        slary:'$2.99',
         image:'gallery/z-5.jpg'
     },
     {
-        name: 'Garden Fresh Gourmet® Jacks Special® Salsa - Mild',
-        slary:'$4.19 / ea ($0.26/oz)',
+        name: 'Garden Gourmet',
+        slary:'$4.19',
         image:'gallery/z-6.jpg'
     },
     {
-        name: 'Poland Spring No Flavor 100% Natural Spring Water',
-        slary:'$5.29 / ea ($0.22/ea)',
+        name: 'Poland Spring Water',
+        slary:'$5.29',
         image:'gallery/z-1.jpg'
     },
     {
-        name: 'Dial Antibacterial Liquid Hand Soap, Spring Water',
-        slary:'$1.59 / ea ($0.21/fl oz)',
+        name: 'Dial Hand Soap',
+        slary:'$1.59',
         image:'gallery/z-2.jpg'
     },
     {
-        name: 'Hellmann s Real Mayonnaise Real Mayo',
-        slary:'$10.49 / ea ($0.87/ct)',
+        name: 'Hellmann s Mayonnaise',
+        slary:'$30.99',
         image:'gallery/z-3.jpg'
     },
 
     {
-        name: 'Heinz Tomato Ketchup  brand of ketchup produced',
-        slary:'$2.99 / ea ($0.15/oz)',
+        name: 'Heinz Ketchup',
+        slary:'$2.88',
         image:'gallery/z-4.jpg'
     },
 
     {
-        name: 'Tresemmé Shampoo Rich Moisture natural vibrancy',
-        slary:'$2.99 / ea ($0.11/oz)',
+        name: 'Tresemmé Shampoo',
+        slary:'$2.99',
         image:'gallery/z-5.jpg'
     },
     {
-        name: 'Garden Fresh Gourmet® Jacks Special® Salsa - Mild',
-        slary:'$4.19 / ea ($0.26/oz)',
+        name: 'Garden Gourmet',
+        slary:'$4.19',
         image:'gallery/z-6.jpg'
     }
 ];
